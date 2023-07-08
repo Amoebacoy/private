@@ -124,7 +124,7 @@ wget -q -O ssh-vpn.sh https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/m
 sleep 1
 wget -q -O ins-xray.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 sleep 1
-wget -q -O senmenu.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O menu.sh https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/main/Menu%20Final/menu.sh && chmod +x senmenu.sh && ./menu.sh
 sleep 1
 IP=$(echo $SSH_CLIENT | awk '{print $1}')
 TMPFILE='/tmp/ipinfo-$DATE_EXEC.txt'
@@ -242,7 +242,7 @@ rm -f /root/ssh-vpn.sh
 rm -f /root/ins-xray.sh
 rm -f /root/setup.sh
 rm -f /root/domain
-rm -f /root/senmenu.sh
+rm -f /root/menu.sh
 rm -f /root/xraymode.sh
 rm -f /root/xray.conf
 history -c
