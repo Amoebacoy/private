@@ -130,9 +130,9 @@ apt install -y nginx
 cd
 rm -fr /etc/nginx/sites-enabled/default
 rm -fr /etc/nginx/sites-available/default
-wget -q -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Amoebacoy/private/main/nginx.conf.txt" 
+wget -q -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Amoebacoy/private/main/nginx.conf" 
 mkdir -p /home/vps/public_html
-wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Amoebacoy/private/main/vps.conf.txt"
+wget -q -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Amoebacoy/private/main/vps.conf"
 
 wget -q -O xraymode.sh https://raw.githubusercontent.com/Amoebacoy/private/main/Xray%20mode/xraymode.sh && chmod +x xraymode.sh && ./xraymode.sh
 sleep 1 
